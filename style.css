@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    background: #A1FFCE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+@media only screen and (max-width:800px) {
+
+    /* For tablets: */
+    .navbar {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .right {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width:500px) {
+  
+    /* For mobile phones: */
+    .navbar {
+      width: 100%;
+    }
+  }
+  img{
+    cursor: pointer;
+  }
+  .category-images {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.h-5 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20PX;
+    font-family: 'Nova', cursive;
+}
